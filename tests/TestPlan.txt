@@ -1,0 +1,31 @@
+DIGITAL FORENSICS EVIDENCE MANAGER - DAY 1 TEST PLAN
+
+T01 Create valid case
+Expected: case is saved to data/cases.txt
+
+T02 Duplicate case ID
+Expected: system rejects duplicate ID
+
+T03 Empty required input
+Expected: validation error is shown
+
+T04 Add evidence to existing case
+Expected: evidence is saved and SHA-256 is calculated
+
+T05 Add evidence to unknown case
+Expected: system rejects the evidence entry
+
+T06 Add custody record
+Expected: custody record is saved
+
+T07 View custody history
+Expected: records for selected evidence are displayed
+
+T08 Verify unchanged evidence
+Expected: INTEGRITY VERIFIED
+
+T09 Modify evidence file and verify again
+Expected: INTEGRITY FAILED
+
+T10 Restart program
+Expected: previously saved cases/evidence/custody records remain available

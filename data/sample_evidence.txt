@@ -1,0 +1,3 @@
+Synthetic forensic evidence file for educational testing.
+Case: CASE-001
+No real personal or investigative data is contained in this file.
