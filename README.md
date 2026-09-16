@@ -33,6 +33,7 @@ src/
 
 data/
 tests/
+screenshots/
 README.md
 statement.md
 ```
